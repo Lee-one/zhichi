@@ -1,0 +1,40 @@
+@charset "utf-8";
+*{margin:0;padding:0;font-family:"Microsoft YaHei"; font-weight:lighter; -webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;}
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{margin:0;padding:0;}
+body{font-size:12px; font-family:"Microsoft YaHei";font-weight:lighter;min-width:320px;overflow-x:hidden; background:#f7f7f7;}
+h1,h2,h3,h4,h5,h6{ font-style:none;}
+a{text-decoration:none;color:#555;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom;}
+i,em{font-style:normal}
+ul,li{list-style:none}
+img{border:0;vertical-align:middle;display:block;max-width:100%;padding:0;margin:0;}
+table{border-collapse:collapse;border-spacing:0}
+input,select,textarea{border: none;outline: none;}
+textarea,select,input{outline:none;}
+select,input[type="button"], input[type="submit"], input[type="reset"],input:checked:after {-webkit-appearance: none;}
+.clearfix:after{content:'.';display:block;clear:both;visibility:hidden;height:0}.clearfix {*zoom:1;}
+/* index */
+.index{width:100%;padding-left:2%;padding-right:2%;float:left;height:auto;}
+.index_button{width: 100%;float: left;border: 1px solid #6F6;background:#090;color: #fff;text-align: center;padding: 5%;margin:5em 0 1em 0;font-size: 1.2em;}
+/* sign */
+.sign{width: 100%;float: left;color: #555;background: none;border: 1px solid #ccc;padding: 3%;margin: 3em 0 0 0;}
+.signs{margin-top:1em;}
+.sing_box{width:100%; float:left;margin:2em 0 2em 0;color:#555;}
+.sing_button{width: 100%;float: left;border:1px solid #6F6;background:#090;color: #fff;text-align: center;padding:3%;margin:1em 0 1em 0;font-size: 1.2em;}
+.sing_bu{width:8em; float:right;padding:2%; border:1px solid #F30;color:#555; background:none;margin-bottom:1em;}
+/* resiger */
+.resiger{width:100%; float:left; text-align:justify;color:#555; line-height:20px;}
+.resiger p{ text-align:center; font-size:1.2em; line-height:35px;}
+/* submit */
+.submit{width: 100%;float: left; position:relative;}
+.submit_one{width: auto;position: absolute;background: #090;padding:2%;right: .5em;top:35%; text-align:center;}
+/* fadan */
+.fadan{width:8em; float:right;padding:2%; border:1px solid #ccc;color:#555; background:#090;margin-bottom:1em;}
+.fadans{margin-bottom:0;}
+/* my_two */
+.my_two p{ text-align:left; font-size:1.2em; line-height:35px;color:#555;}
+.my_four p{ text-align:center; font-size:1.2em; line-height:35px;color:#666;}
